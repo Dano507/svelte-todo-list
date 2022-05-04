@@ -37,5 +37,5 @@ dependencies.
 - [x] List item height incorrect when built
 - [x] List items overflow when `name` has too many words
 - [x] List items overflow when `name` has too many characters
-- [ ] List item checkbox gets smaller with large content
+- [x] List item checkbox gets smaller with large content
 - [ ] list items get checked when deleted

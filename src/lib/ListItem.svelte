@@ -53,6 +53,8 @@
 
 
 .checkbox {
+  flex-shrink: 0;
+  
   height: 20px;
   width: 20px;
   background-color: blue;
