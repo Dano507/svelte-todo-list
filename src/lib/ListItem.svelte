@@ -38,7 +38,7 @@
   box-sizing: border-box;
 
   padding: var(--padding);
-  height: 55px;
+  min-height: 55px;
   width: 100%;
 
   border-radius: 16px;
@@ -62,6 +62,8 @@
   display: inline-flex;
   align-items: center;
   justify-content: center;
+
+  word-break: break-all;
 }
 .name-container * { margin-right: var(--padding); }
 
