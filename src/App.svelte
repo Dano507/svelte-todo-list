@@ -65,6 +65,7 @@ const entryHandler = e => {
     </div>
   </div>
 
+  <div class="spacer"></div>
   <div id="taskEntry" class="task-entry">
     <TaskEntryBar on:entry={entryHandler} />
   </div>
@@ -124,8 +125,17 @@ const entryHandler = e => {
 
   .task-entry {
     position: fixed;
-    bottom: 24px;
+    bottom: 0px;
 
-    display: block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 100%;
+  }
+  .spacer {
+    display: flex;
+    height: 100px;
+    width: 100%;
   }
 </style>
