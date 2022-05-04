@@ -34,4 +34,5 @@ dependencies.
 
 
 # Known bugs
+- [x] List item height incorrect when built
 - [ ] list items get checked when deleted

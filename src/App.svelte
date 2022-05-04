@@ -74,6 +74,15 @@ const entryHandler = e => {
 
 
 <style>
+  :global(*) {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+  }
+  :global(body) {
+    margin: 0;
+    padding: 0;
+  }
+
   .task-container .unfinished,
   .task-container .finished {
     display: flex;

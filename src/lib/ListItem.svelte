@@ -38,6 +38,7 @@
   box-sizing: border-box;
 
   padding: var(--padding);
+  height: 55px;
   width: 100%;
 
   border-radius: 16px;
