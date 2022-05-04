@@ -123,10 +123,9 @@ const entryHandler = e => {
 
 
   .task-entry {
-    position: absolute;
+    position: fixed;
     bottom: 24px;
 
     display: block;
-
   }
 </style>

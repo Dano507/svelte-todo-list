@@ -38,4 +38,6 @@ dependencies.
 - [x] List items overflow when `name` has too many words
 - [x] List items overflow when `name` has too many characters
 - [x] List item checkbox gets smaller with large content
+- [x] TaskEntryBar doesn't scroll with page
+  - [ ] TaskEntryBar covers List items when page height overflows
 - [ ] list items get checked when deleted
