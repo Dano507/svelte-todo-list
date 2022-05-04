@@ -34,4 +34,4 @@ dependencies.
 
 
 # Known bugs
-
+- [ ] list items get checked when deleted
