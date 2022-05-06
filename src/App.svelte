@@ -1,6 +1,6 @@
 <script lang=ts>
 import { crossfade } from 'svelte/transition';
-import ListItem from './lib/ListItem.svelte';
+import Task from './lib/Task.svelte';
 import TaskEntryBar from './lib/TaskEntryBar.svelte';
 
 const [send, receive] = crossfade({
@@ -48,7 +48,7 @@ const entryHandler = e => {
       <h2>Unfinished</h2>
       {#each tasks.filter(t=>!t.done) as task, id (task.id)}
         <div out:send={{key: task.id}} in:receive={{key: task.id}}>
-          <ListItem on:delete={handleRemove} bind:state={task.done}
+          <Task on:delete={handleRemove} bind:state={task.done}
             id={task.id} text={task.name} />
         </div>
       {/each}
@@ -58,7 +58,7 @@ const entryHandler = e => {
       <h2>Finished</h2>
       {#each tasks.filter(t=>t.done) as task, id (task.id)}
         <div out:send={{key: task.id}} in:receive={{key: task.id}}>
-          <ListItem on:delete={handleRemove} bind:state={task.done}
+          <Task on:delete={handleRemove} bind:state={task.done}
             id={task.id} text={task.name} />
         </div>
       {/each}

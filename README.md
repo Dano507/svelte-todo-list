@@ -34,10 +34,10 @@ dependencies.
 
 
 # Known bugs
-- [x] List item height incorrect when built
-- [x] List items overflow when `name` has too many words
-- [x] List items overflow when `name` has too many characters
-- [x] List item checkbox gets smaller with large content
+- [x] Taks height incorrect when built
+- [x] Task overflows when `name` has too many words
+- [x] Task overflows when `name` has too many characters
+- [x] Task checkbox gets smaller with large content
 - [x] TaskEntryBar doesn't scroll with page
-  - [x] TaskEntryBar covers List items when page height overflows
-- [x] list items get checked when deleted
+  - [x] TaskEntryBar covers Tasks when page height overflows
+- [x] Task gets checked when deleted
