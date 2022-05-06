@@ -40,4 +40,4 @@ dependencies.
 - [x] List item checkbox gets smaller with large content
 - [x] TaskEntryBar doesn't scroll with page
   - [x] TaskEntryBar covers List items when page height overflows
-- [ ] list items get checked when deleted
+- [x] list items get checked when deleted

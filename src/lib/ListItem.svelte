@@ -24,7 +24,7 @@
     <p>{text}</p>
   </div>
 
-  <button on:click={del}>[del]</button>
+  <button on:click|stopPropagation={del}>[del]</button>
 </div>
 
 
